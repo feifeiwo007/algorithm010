@@ -109,5 +109,5 @@
 * 给有序链表加速 <br>
 	increase dimentions and increase first/second level index
 	
-	
+![Time complexty](https://github.com/feifeiwo007/algorithm010/blob/master/Week01/Snipaste_2020-06-14_22-40-10.png "geekuniversity")
 	
