@@ -92,16 +92,22 @@
 	
 ### 跳表 Skip List
 * 定义 <br>
-	 
+	 * 只能用于元素有序的情况
+	 * 对标的是平衡树(AVL tree) 和二分查找树
+	 * 项目中的应用 Redis LevelDB
 
 * 操作的时间复杂度 <br>
 	Manuplate|O
 	-------- | -------
-	prepend| O(1)
-	append | O(1)
-	lookup | O(n)
-	inster | O(1)
-	delete | O(1)
+	insert | O(log n)
+	delete | O(log n)
+	lookup | O(log n)
+
+* 跳表的空间复杂度 <br>
+	* O(n)
+
+* 给有序链表加速 <br>
+	increase dimentions and increase first/second level index
 	
 	
 	
