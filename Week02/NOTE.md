@@ -22,7 +22,7 @@
 
 #### 代码
 * Pre-order
-```
+```python
   def preorder(self,root):
     if root:
       self.traverse_path.append(root.val)
@@ -31,7 +31,7 @@
 ```
 
 * In-order
-```
+```python
   def inorder(self,root):
     if root:
       self.inorder(root.left)
@@ -40,7 +40,7 @@
 ```
 
 * Post-order
-```
+```python
   def postorder(self,root):
     if root:
       self.postorder(root.left)
