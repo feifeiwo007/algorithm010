@@ -52,7 +52,7 @@
       return[]
     visited,stack =[], [tree.root]  #站
     while stack:
-      node=atstck.pop()
+      node=stack.pop()
       visited.add(node)
       process(node)
       nodes=generate_related_nodes(node)
