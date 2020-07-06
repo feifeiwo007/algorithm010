@@ -50,7 +50,7 @@
   def DFS(self,tree):
     if tree.root in None:
       return[]
-    visited,stack =[], [tree.root]  #站
+    visited,stack =[], [tree.root]  #栈
     while stack:
       node=stack.pop()
       visited.add(node)
