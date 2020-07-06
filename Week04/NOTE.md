@@ -12,7 +12,7 @@
   def dfs(node):
     if node in visited:
     #already visited
-    return
+      return
     visited.add(node)
     #process current node
     #...logic here
