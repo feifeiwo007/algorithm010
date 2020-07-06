@@ -102,6 +102,6 @@ while left <=right:
     break or return result
   elif array[mid] < target:
     left = mid + 1
-  eles: 
+  else: 
     right = mid +1
 ```
